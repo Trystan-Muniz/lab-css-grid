@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.parent {
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    border: 5px solid black;
+    top: 10%;
+    left: 10%;
+    display: grid;
+    grid-template-columns: 10% 30% 40% 20%;
+    grid-template-rows: 45% 20% 30% 5%;
+}
+
+.item {
+    border: 3px solid black;
+}
